@@ -1,0 +1,16 @@
+// Project specific modifications
+h1 {
+  padding-bottom: 36px;
+}
+
+main {
+  line-height: 1.75em;
+  font-size: 18px;
+}
+
+p::selection {
+  background: #d1b3ff;
+}
+p::-moz-selection {
+  background: #d1b3ff;
+}

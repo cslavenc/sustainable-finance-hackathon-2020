@@ -4,6 +4,16 @@
   "description": "App developed during the SFH20 hackathon",
   "version": "1.0.0",
   "author": "Alexandre Elsig, Slaven Cvijetic, Olivia Gamp, Luca Heer",
+  "license": "0BSD",
+  "scripts": {
+    "build": "node_modules/.bin/gatsby build",
+    "develop": "node_modules/.bin/gatsby develop",
+    "format": "node_modules/.bin/prettier --write \\\\\\\\\\\\\\\"**/*.{js,jsx,ts,tsx,json,md}\\\\\\\\\\\\\\\"",
+    "start": "npm run develop",
+    "serve": "node_modules/.bin/gatsby serve",
+    "clean": "node_modules/.bin/gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
   "dependencies": {
     "@mdx-js/mdx": "^1.6.19",
     "@mdx-js/react": "^1.6.19",
@@ -82,16 +92,6 @@
   "keywords": [
     "gatsby"
   ],
-  "license": "0BSD",
-  "scripts": {
-    "build": "node_modules/.bin/gatsby build",
-    "develop": "node_modules/.bin/gatsby develop",
-    "format": "node_modules/.bin/prettier --write \\\\\\\\\\\\\\\"**/*.{js,jsx,ts,tsx,json,md}\\\\\\\\\\\\\\\"",
-    "start": "npm run develop",
-    "serve": "node_modules/.bin/gatsby serve",
-    "clean": "node_modules/.bin/gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"

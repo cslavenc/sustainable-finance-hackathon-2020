@@ -1,8 +1,6 @@
 import React from 'react'
 import Layout from '../components/Layout'
 import Header from '../components/Header'
-import Footer from '../components/Footer'
-import Navigation from '../components/navigation'
 import '../styles/global.scss' // import global styles for some HTML tags
 import 'bootstrap/dist/css/bootstrap.min.css' // load Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min'

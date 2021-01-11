@@ -1,0 +1,13 @@
+.ranking {
+  list-style-type: none;  // remove bullet points
+  padding-left: 0px;      // remove indentation
+
+  li:nth-child(even) {
+    background-color: lightgrey;
+  }
+}
+
+.ranking-col {
+  padding-left: 0px;  // remove padding, s.t. lightgrey background color fill the entire list element
+  padding-right: 0px;
+}

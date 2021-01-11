@@ -6,7 +6,7 @@
   "author": "Alexandre Elsig, Slaven Cvijetic, Olivia Gamp, Luca Heer",
   "license": "0BSD",
   "scripts": {
-    "build": "node_modules/.bin/gatsby build",
+    "build": "gatsby build",
     "develop": "node_modules/.bin/gatsby develop",
     "format": "node_modules/.bin/prettier --write \\\\\\\\\\\\\\\"**/*.{js,jsx,ts,tsx,json,md}\\\\\\\\\\\\\\\"",
     "start": "npm run develop",
@@ -17,6 +17,7 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.6.19",
     "@mdx-js/react": "^1.6.19",
+    "@popperjs/core": "^2.6.0",
     "@reduxjs/toolkit": "^1.5.0",
     "axios": "^0.21.0",
     "bootstrap": "^4.5.3",
@@ -36,6 +37,7 @@
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
     "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
     "react": "^16.12.0",
     "react-bootstrap": "^1.4.0",
     "react-cookie-consent": "^6.2.1",

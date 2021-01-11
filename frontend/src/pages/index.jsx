@@ -3,8 +3,8 @@ import Layout from '../components/Layout'
 import Header from '../components/Header'
 import '../styles/global.scss' // import global styles for some HTML tags
 import 'bootstrap/dist/css/bootstrap.min.css' // load Bootstrap CSS
-import 'bootstrap/dist/js/bootstrap.bundle.min'
-import { graphql, useStaticQuery } from 'gatsby' // enable dropdown menu (JS-related BS functionalities)
+//import 'bootstrap/dist/js/bootstrap.bundle.min' // enable dropdown menu (JS-related BS functionalities)
+import { graphql, useStaticQuery } from 'gatsby'
 import styles from './index.module.scss'
 
 export default () => {
@@ -89,7 +89,7 @@ export default () => {
                 <strong>Score</strong>
                 <ul className={`${styles.ranking}`}>
                   {mockTopTen.map((entry) => (
-                    <li>{entry.Score}</li>
+                    <li>{parseFloat(entry.Score).toFixed(2)}</li>
                   ))}
                 </ul>
               </div>

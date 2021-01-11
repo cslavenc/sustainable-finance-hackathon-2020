@@ -23,7 +23,7 @@ const Header = () => {
   `)
 
   return (
-    <header>
+    <header className={`${styles.heroImageContainer}`}>
       <Img
         alt="hero image"
         fluid={heroImage.allFile.nodes[0].image.fluid}

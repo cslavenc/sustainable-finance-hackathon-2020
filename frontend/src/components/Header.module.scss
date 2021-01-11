@@ -1,4 +1,10 @@
-.hero-image {
+// container necessary to resize the height of image proportionally (use: height: auto)
+.hero-image-container {
     width: 100%;
-    height: auto;
+    height: 600px;
+    display: block;
+}
+.hero-image {
+    max-width: 100%;
+    max-height: 100%;
 }

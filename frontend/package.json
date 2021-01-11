@@ -21,6 +21,7 @@
     "gatsby-source-drupal": "^3.10.1",
     "gatsby-source-filesystem": "^2.5.0",
     "gatsby-source-mongodb": "^2.6.0",
+    "gatsby-transformer-csv": "^2.8.0",
     "gatsby-transformer-sharp": "^2.6.0",
     "jquery": "^3.5.1",
     "node-sass": "^4.14.1",
@@ -38,7 +39,7 @@
     "react-router-dom": "^5.2.0",
     "react-toastify": "^6.2.0",
     "sass": "^1.30.0",
-    "sass-loader": "^10.1.0",
+    "sass-loader": "^7.3.0",
     "style-loader": "^2.0.0",
     "tsc": "^1.20150623.0",
     "typescript": "^4.1.3"
